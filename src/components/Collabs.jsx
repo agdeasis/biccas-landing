@@ -4,7 +4,7 @@ const Collabs = () => {
   return (
    <div className='collabs flex items-center pb-[100px] relative'>
         <div className='mt-[130px] text-center max-w-[1180px] mx-auto px-4'>
-            <h1 className='text-1xl md:text-3xl font-bold'>More than 25,000 teams use Collabs</h1>
+            <h1 className='text-2xl md:text-3xl font-bold'>More than 25,000 teams use Collabs</h1>
 
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4  mt-[50px] justify-items-center items-center">
                 <div className='py-4'>
