@@ -26,11 +26,11 @@ const Navbar = () => {
             </ul>
 
 
-            <div className='md:hidden'>
+            <div className='md:hidden relative z-[1000]'>
                 { !nav ? <AiOutlineMenu color="#000"  onClick={ ()=> {handleNav();} } /> : <AiOutlineClose color="#000" onClick={ ()=> {handleNav();} }  /> }
             </div>
 
-            <div className={ nav ? 'w-[60%] absolute top-0 left-0 z-1  bg-white mt-[0] drop-shadow-lg md:hidden h-full px-4' : 'hidden'}>
+            <div className={ nav ? 'w-[60%] absolute top-0 left-0 z-1  bg-white mt-[0] drop-shadow-lg md:hidden h-full px-4 z-[999]' : 'hidden'}>
                 <h1 className='w-full text-2xl font-bold text-[#54BD95] mt-5 mb-5 '>Biccass</h1>
                 <ul className='text-[#A6A6A6] text-left'>
                     <li className='p-4 text-[#000]' >Home</li>
