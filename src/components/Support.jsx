@@ -10,7 +10,7 @@ const Support = () => {
     return (
         <div className='support bg-[#F9F8FE]'>
             <div className="mx-auto d-block max-w-[1180px]">
-                <div className="grid md:grid-cols-2 py-8">
+                <div className="grid md:grid-cols-2 py-12">
                     <div className="left-text p-4 text-center md:text-left">
                         <h2 className='text-2xl md:text-3xl font-medium mb-6 md:max-w-[400px]'>
                             How we support our partner all over the world
@@ -47,7 +47,39 @@ const Support = () => {
                         </div>
                     </div>
                     <div className="rigth-text p-4">
-                        b
+                        <div className='flex mt-8'>
+                            <div className='w-[60px] h-[60px] bg-white shadow-md flex justify-center items-center mr-4'>
+                                <img src="./images/support/publish.png" className='max-w-[100%] h-auto' alt="" />
+                            </div>
+                            <div className='w-full'>
+                                <h4 className='text-2xl font-bold' >Publishing</h4>
+                                <p className='text-[#a6a6a6] mt-2'>
+                                  Plan, collaborate, and publishing your contetn that drivees meaningful engagement and growth for your brand
+                                </p>
+                            </div>
+                        </div>
+                        <div className='flex mt-10'>
+                            <div className='w-[60px] h-[60px] bg-white shadow-md flex justify-center items-center mr-4'>
+                                <img src="./images/support/publish.png" className='max-w-[100%] h-auto' alt="" />
+                            </div>
+                            <div className='w-full'>
+                                <h4 className='text-2xl font-bold' >Analytics</h4>
+                                <p className='text-[#a6a6a6] mt-2'>
+                                   Analyze your performance and create goegeous report
+                                </p>
+                            </div>
+                        </div>  
+                        <div className='flex mt-10'>
+                            <div className='w-[60px] h-[60px] bg-white shadow-md flex justify-center items-center mr-4'>
+                                <img src="./images/support/publish.png" className='max-w-[100%] h-auto' alt="" />
+                            </div>
+                            <div className='w-full'>
+                                <h4 className='text-2xl font-bold' >Engagement</h4>
+                                <p className='text-[#a6a6a6] mt-2'>
+                                    Quiuckly navigate you anda engage with your adience
+                                </p>
+                            </div>
+                        </div>  
                     </div>
                 </div>
             </div>
