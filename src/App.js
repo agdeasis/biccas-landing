@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Collabs from "./components/Collabs";
 import Support from "./components/Support";
+import Features from "./components/Features";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Collabs />
         <Support />
+        <Features />
     </div>
   );
 }
