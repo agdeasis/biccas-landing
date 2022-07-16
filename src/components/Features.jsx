@@ -3,7 +3,7 @@ import Benefits from './Benefits'
 
 const Features = () => {
     return (
-        <section className='section-features relative z-9 overflow-x-hidden'>
+        <section className='section-features relative z-9 overflow-y-hidden'>
             <img src="./images/eclipse-red.png" className='absolute left-0' alt="" />
             <div className='max-w-[1180px] mx-auto block py-12'>
                 <div className='flex flex-wrap  px-5 justify-center md:justify-start items-start mt-[50px]'>
